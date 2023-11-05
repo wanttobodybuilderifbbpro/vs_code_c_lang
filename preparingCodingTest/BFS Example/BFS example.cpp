@@ -14,7 +14,7 @@ void dfs(int x) {
     // 현재 노드와 연결된 다른 노드를 재귀적으로 방문
     for (int i = 0; i < graph[x].size(); i++) {
         int y = graph[x][i];
-        if (!visited[y]) dfs(y);
+        if (!visited[y]) dfs(y); //방문한 기억이 없다면(!visited[y]~)
     }
 }
 
