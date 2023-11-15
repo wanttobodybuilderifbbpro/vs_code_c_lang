@@ -10,7 +10,7 @@ class Student { //함수 만드는게 아니니까 class Student() {} 아님.
     this->name = name;
     this->score = score;
   }
-  //정렬 기준은 <점수가 낮은 순서>
+  //정렬 기준은 <점수가 낮은 순서>  뭐 떄문에 안되는거지
   bool operator <(Student &other) {
     return this->score < other.score;
   }
