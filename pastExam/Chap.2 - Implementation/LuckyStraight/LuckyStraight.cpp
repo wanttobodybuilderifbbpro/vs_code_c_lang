@@ -4,6 +4,8 @@ using namespace std;
 string str;
 int summary = 0;
 
+//문제에서 시키는 대로 하면 이 문제는 쉽게 풀리는 유형. 
+
 int main(void) {
     cin >> str;
 
